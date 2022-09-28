@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.6s;
+}
+
+html{
+    user-select: none;
+}
+
+body{
+    background-image: url(./Wallpaper/windows-11-windows-10-minimalism-hd-wallpaper-preview.jpg);
+}
+
+/* Right Click in Screen */
+#context-menu {
+    text-decoration: none;
+    cursor: context-menu;
+    padding:10px;
+    background:#202020;
+    position:fixed;
+    top:50px;
+    left:100px;
+    width:200px;
+    display:none;
+  }
+  #context-menu  div{
+    cursor: context-menu;
+    color: #fff;
+    font-family:"sans-serif";
+    padding:10px;
+    transition: 0.8s;
+    border-bottom:1px solid #555;
+    cursor:pointer;
+  }
+  #context-menu div:hover{
+    background-color: #555;
+  }
+  #context-menu.active {
+    cursor: context-menu;
+    display:block;
+  }
+/* End Right Click in Screen */
+
+#serc{
+    cursor: pointer;
+    width: 50px;
+    display: flex;
+    padding: 0px 0px 0px 0px;
+}
+.span-thispc{
+    cursor: pointer;
+    margin-left: 3px;
+    color: white;
+}
+
+
+.wrapper{
+    border-radius: 10px;
+    display: none;
+    width: 890px;
+    min-height: 500px;
+    height:auto;
+    margin: 20px auto;
+    background-color: #fff;
+    position: relative;
+}
+
+
+/* wrapper */
+.w-imglogo{
+    width: 32px;
+}
+
+.w-imgclose{
+    width: 32px;
+    cursor: pointer;
+    margin-left: 820px;
+}
+
+.hidethispc{
+    display: none;
+}
+/* more in This PC */
+#desktop{
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+#downloads{
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+#documents{
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+#namedesktop{
+    cursor: pointer;
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 97px;
+}
+
+/* settings */
+#wrappersetting{
+    display: none;
+    border-radius: 10px;
+    width: 1090px;
+    min-height: 600px;
+    height:auto;
+    margin: 20px auto;
+    background-color: #fff;
+    position: relative;
+}
+.h4-namewallpaperss{
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 400px;
+}
+#imgclosesetting{
+    width: 32px;
+    cursor: pointer;
+    margin-left: 1020px;
+}
+.w-imglogosetting{
+width: 32px;
+cursor: pointer;
+}
+#wallpaperdefualt{
+    width: 150px;
+    cursor: pointer;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+#wallpaperthree{
+    width: 150px;
+    cursor: pointer;
+    margin-left: 49px;
+    margin-top: 60px;
+}
+#wallpapertow{
+    width: 150px;
+    cursor: pointer;
+    margin-left: 49px;
+    margin-top: 60px;
+}
+.hidesettings{
+    display: none;
+}
+/* end Settings */
